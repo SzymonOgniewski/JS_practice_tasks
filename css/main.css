@@ -1,0 +1,93 @@
+body {
+  background: #1b1b1b;
+}
+.main-menu {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+}
+.main-menu-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+.main-menu-item {
+  font-size: 24px;
+  text-align: center;
+}
+.main-menu-link {
+  text-decoration: none;
+  color: #00cfff;
+}
+.main-menu-link:hover {
+  color: #00ffae;
+  transition: 0.3s;
+}
+.return {
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+}
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-size: cover;
+  transition: 0.6s;
+}
+
+.item1 {
+  height: 40px;
+  background-image: url("https://cdn.pixabay.com/photo/2019/06/07/10/44/sunset-4257963_960_720.jpg");
+}
+
+.item2 {
+  height: 300px;
+  background-image: url("../img/photo.jpg");
+  background-position: center;
+
+  background-size: 960px 720px;
+}
+
+.hide {
+  height: 300px;
+}
+
+.background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+button {
+  margin: 0 30px;
+  padding: 10px 30px;
+  background: none;
+  border: 2px solid #00cfff;
+  border-radius: 5px;
+  color: #00cfff;
+  font-size: 36px;
+  cursor: pointer;
+  transition: color 0.3s, box-shadow 0.3s;
+  box-shadow: 3px 3px 10px #00cfff;
+}
+
+button:hover {
+  color: #00ffae;
+  box-shadow: 3px 3px 10px #00ffae;
+}
+
+.fas {
+  transition: transform 0.6s;
+}
