@@ -1,4 +1,4 @@
-## [Some practice tasks](https://szymonogniewski.github.io/some-practice-tasks/)
+## [My basic JavaScript projects:](https://szymonogniewski.github.io/JS_practice_tasks/)
 
 1. Show and hide image.
 2. Text color and size changer.
